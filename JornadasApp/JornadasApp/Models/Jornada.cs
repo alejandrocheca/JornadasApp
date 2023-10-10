@@ -2,9 +2,9 @@ using Microsoft.AspNetCore.Identity;
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace WorkDayTimerWebApp.Models
+namespace JornadasApp.Models
 {
-    public class WorkDayTimer
+    public class Jornada
     {
         [Key]
         public int Id { get; set; }
